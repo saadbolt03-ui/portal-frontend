@@ -55,9 +55,26 @@ const Landing: React.FC = () => {
             Advanced multiphase flow measurement and monitoring platform for oil and gas operations
           </p>
 
-          <p className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto drop-shadow-md">
-            Real-time data visualization • Remote monitoring • Comprehensive analytics
-          </p>
+          <div className="mb-12 max-w-3xl mx-auto">
+            <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 shadow-xl">
+              <div className="flex flex-wrap items-center justify-center gap-6 text-gray-200">
+                <div className="flex items-center gap-3 group">
+                  <div className="w-2 h-2 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
+                  <span className="text-lg font-medium drop-shadow-sm group-hover:text-yellow-300 transition-colors duration-300">Real-time data visualization</span>
+                </div>
+                <div className="hidden sm:block w-px h-6 bg-white/20"></div>
+                <div className="flex items-center gap-3 group">
+                  <div className="w-2 h-2 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
+                  <span className="text-lg font-medium drop-shadow-sm group-hover:text-yellow-300 transition-colors duration-300">Remote monitoring</span>
+                </div>
+                <div className="hidden sm:block w-px h-6 bg-white/20"></div>
+                <div className="flex items-center gap-3 group">
+                  <div className="w-2 h-2 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
+                  <span className="text-lg font-medium drop-shadow-sm group-hover:text-yellow-300 transition-colors duration-300">Comprehensive analytics</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
