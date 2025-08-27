@@ -58,15 +58,6 @@ const ForgotPassword: React.FC = () => {
         {/* Right Side - Success Message */}
         <div className="flex-1 flex flex-col justify-center px-6 py-12 lg:px-12">
           <div className="mx-auto w-full max-w-md text-center">
-            {/* Logo */}
-            <div className="mb-8">
-              <img
-                src="https://saherflow.com/wp-content/uploads/2021/06/Artboard-1-copy100.svg"
-                alt="Saher Flow Solutions"
-                className="h-12 w-auto mx-auto"
-              />
-            </div>
-
             <div className="bg-green-100 p-4 rounded-full w-20 h-20 mx-auto mb-8 flex items-center justify-center">
               <CheckCircle className="w-10 h-10 text-green-600" />
             </div>
@@ -120,6 +111,24 @@ const ForgotPassword: React.FC = () => {
         ></div>
         
         <div className="relative z-10 flex flex-col justify-start pt-20 p-12 text-white">
+          {/* Logo at top left */}
+          <div className="mb-8">
+            <img
+              src="https://saherflow.com/wp-content/uploads/2021/06/Artboard-1-copy100.svg"
+              alt="Saher Flow Solutions"
+              className="h-12 w-auto"
+            />
+          </div>
+          
+          {/* Logo at top left */}
+          <div className="mb-8">
+            <img
+              src="https://saherflow.com/wp-content/uploads/2021/06/Artboard-1-copy100.svg"
+              alt="Saher Flow Solutions"
+              className="h-12 w-auto"
+            />
+          </div>
+          
           <div className="mb-8">
             <h1 className="text-5xl font-bold mb-6 leading-tight">
               Reset Password for
@@ -153,15 +162,6 @@ const ForgotPassword: React.FC = () => {
       {/* Right Side - Forgot Password Form */}
       <div className="flex-1 flex flex-col justify-center px-6 py-12 lg:px-12">
         <div className="mx-auto w-full max-w-md">
-          {/* Logo */}
-          <div className="mb-8">
-            <img
-              src="https://saherflow.com/wp-content/uploads/2021/06/Artboard-1-copy100.svg"
-              alt="Saher Flow Solutions"
-              className="h-12 w-auto"
-            />
-          </div>
-
           {/* Back to Login Link */}
           <Link 
             to="/login" 
